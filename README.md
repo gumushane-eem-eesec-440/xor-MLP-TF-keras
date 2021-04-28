@@ -12,5 +12,7 @@ from numpy import random
 
 Bildiğimiz gibi, *XOR* problemi *Elektrik-Elektronik Mühendisliğinde* mantıksal devreler (**logic circuits**) alanında karşımıza çıkan bir problem. İki girişli ve tek çıkışlı (**two input one output**) bir sistemin girişleri *TRUE-FALSE* (veya *1-0* veya *HIGH-LOW*) olarak isimlendirilen *Boolean* veri tipinde değer alıyorlar. Benzer şekilde çıkış da yine *1-0* Boolean değişkenlerinden birisi oluyor.
 
+<img src="figure/xor mapping.jpg" alt="xor problem mapping" height="240"/></br>
+*Figure 1:* The mapping in XOR problem.
 
 Aşağıda **numpy** kütüphanesi kullanarak giriş (**input**) ve hedef (**target**) verilerini oluşturduk. Dikkat edin, burada hedef verisine İngilizce'de **annonation** deniyor. Yani bizler hedef değişkenini oluşturduğumuzda giriş verisini **annotate** etmiş (etiket - **label**) oluyoruz.
