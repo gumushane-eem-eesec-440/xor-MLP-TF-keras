@@ -12,7 +12,7 @@ from google.colab import files
 ```
 Bildiğimiz gibi, *XOR* problemi *Elektrik-Elektronik Mühendisliğinde* mantıksal devreler (**logic circuits**) alanında karşımıza çıkan bir problem. İki girişli ve tek çıkışlı (**two input one output**) bir sistemin girişleri *TRUE-FALSE* (veya *1-0* veya *HIGH-LOW*) olarak isimlendirilen *Boolean* veri tipinde değer alıyorlar. Benzer şekilde çıkış da yine *1-0* Boolean değişkenlerinden birisi oluyor.
 
-<img src="figure/xor mapping.jpg" alt="xor problem mapping" height="240"/></br>
+<img src="figure/xor mapping.jpg" alt="xor problem mapping" height="200"/></br>
 *Figure 1:* The mapping in XOR problem.
 
 Aşağıda **numpy** kütüphanesi kullanarak giriş (**input**) ve hedef (**target**) verilerini oluşturduk. Dikkat edin, burada hedef verisine İngilizce'de **annonation** deniyor. Yani bizler hedef değişkenini oluşturduğumuzda giriş verisini **annotate** etmiş (etiket - **label**) oluyoruz.
@@ -58,4 +58,7 @@ plt.xlabel("epoch number")
 ```
 
 <img src="figure/loss function (XOR problem).png" alt="loss function" height="240"/></br>
-*Figure 2:* The mapping in XOR problem.
+*Figure 2:* Loss function in XOR problem.
+
+<img src="figure/accuracy XOR problem.png" alt="accuracy during training" height="240"/></br>
+*Figure 3:* Accuracy change during the training in XOR problem.
