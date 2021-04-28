@@ -1,4 +1,4 @@
-# Learning XOR Mapping with a MLP using TF (Keras)
+# Learning XOR mapping with a MLP using TF (Keras)
 En başta bu kodda kullanacağımız **fonksiyonları** çağıracağımız **kütüphaneleri** dahil ediyoruz.</br>
 First we import the **libraries** to use the **functions** that we are going to invoke in this code.</br>
 ```
